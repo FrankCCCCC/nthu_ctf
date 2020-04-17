@@ -1,1 +1,0 @@
-gcc -z execstack -fno-stack-protector -no-pie hackme.c -o hackme

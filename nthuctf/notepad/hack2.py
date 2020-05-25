@@ -1,7 +1,7 @@
 from pwn import *
 
-p = process("./notepad")
-# p = remote("140.115.59.7", 11003)
+# p = process("./notepad")
+p = remote("140.115.59.7", 11003)
 # p = remote("ctf.adl.tw", 11003)
 print(p.recv())
 raw_input("attach gdb")

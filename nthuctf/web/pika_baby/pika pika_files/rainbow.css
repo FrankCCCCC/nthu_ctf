@@ -1,0 +1,51 @@
+.rainbow {
+    
+    /* Font options */
+    /* font-family: 'Pacifico', cursive; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 3s infinite; 
+    
+    /* Internet Explorer */
+    -ms-animation: rainbow 3s infinite;
+    
+    /* Standar Syntax */
+    animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    0%{color: red;}	
+    14%{color: orange;}	
+    28%{color: yellow;}
+    43%{color: green;}
+    57%{color: aqua;}
+    71%{color: blue;}
+    86%{color:purple;}
+    100%{color: red;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    0%{color: red;}	
+    14%{color: orange;}	
+    28%{color: yellow;}
+    43%{color: green;}
+    57%{color: aqua;}
+    71%{color: blue;}
+    86%{color:purple;}
+    100%{color: red;}
+}
+
+/* Standard Syntax */
+@keyframes rainbow{
+    0%{color: red;}	
+    14%{color: orange;}	
+    28%{color: yellow;}
+    43%{color: green;}
+    57%{color: aqua;}
+    71%{color: blue;}
+    86%{color:purple;}
+    100%{color: red;}
+}
